@@ -20,7 +20,7 @@ Digging deeper, I looked at what types exist:
 ![Image showing 20 existing types](Images/UGoTTypes.png)
 
 Some familiar results here are Listing, Account and PromoCode, which seem to match up to the queryable fields discovered earlier.  
-The VendorDiagnostics type is also interesting, but there is no obvious way to query it
+The VendorDiagnostics type is also interesting, but there is no obvious way to query it.
 Looking deeper into the PromoCode type, I discover four fields:
 
 ![The four fields are code, description, percentOff and appliesTo](Images/UGoTPromoFields.png)
