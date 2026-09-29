@@ -21,7 +21,6 @@ Digging deeper, I looked at what types exist:
 
 Some familiar results here are Listing, Account and PromoCode, which seem to match up to the queryable fields discovered earlier.  
 The VendorDiagnostics type is also interesting, but there is no obvious way to query it
-
 Looking deeper into the PromoCode type, I discover four fields:
 
 ![The four fields are code, description, percentOff and appliesTo](Images/UGoTPromoFields.png)
@@ -50,7 +49,7 @@ Then, checking the values of the fields in the VendorDiagnostics type from earli
 
 With the vendorKey, the promoCodes field becomes accessible:
 
-![](UGoTCodes.png)
+![](Images/UGoTCodes.png)
 
 The most interesting code here is FOUNDERS-100, which is gives 100% off on Lot #4042, the purchase of which is the objective of the challenge.
 
